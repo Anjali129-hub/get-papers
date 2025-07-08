@@ -37,3 +37,10 @@ A command-line Python tool to fetch PubMed research papers with at least one non
 git clone https://github.com/Anjali129-hub/get-papers.git
 cd get-papers
 poetry install
+poetry run get-papers-list "covid vaccine" --debug -f papers.csv
+
+## Run Tests
+poetry run pytest
+
+## Install from TestPyPI
+pip install -i https://test.pypi.org/simple/ anjali-get-papers
